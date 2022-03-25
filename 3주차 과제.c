@@ -5,7 +5,6 @@ main() {
 		j = i - 3;
 		k = i - 2;
 		sum = sum + 1.0 * i / (j * k);
-		//printf("%f\n", sum);
 	}
 	printf("%f\n", sum);
 }
