@@ -6,7 +6,7 @@ main() {
 	
 	printf("%s\n", hh);
 	
-	//´ë¹®ÀÚ 
+	//ëŒ€ë¬¸ìž
 	for (l = 0; hh[l] != '\0'; l++) {
 		if (hh[l] >= 'a' && hh[l] <= 'z')
 			Large[l] = hh[l] - ('a' - 'A');
@@ -16,11 +16,11 @@ main() {
 	Large[l] = '\0';
 	printf("%s\n", Large);
 	
-	//¼Ò¹®ÀÚ 
+	//ì†Œë¬¸ìž
 	for (s = 0; hh[s] != '\0'; s++) {
 		if (hh[s] >= 'A' && hh[s] <= 'Z')
 			Small[s] = hh[s] + ('a' - 'A');
-		else //if (hh[s] >= 'a' && h[s] <= 'z')
+		else
 			Small[s] = hh[s];
 	}
 	Small[s] = '\0';
