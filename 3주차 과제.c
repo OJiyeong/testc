@@ -7,4 +7,5 @@ main() {
 		sum = sum + 1.0 * i / (j * k);
 	}
 	printf("%f\n", sum);
+	printf("git test");
 }
